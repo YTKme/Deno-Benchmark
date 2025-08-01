@@ -1,0 +1,23 @@
+{
+  "name": "denobenchmark",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "description": "Deno Benchmark",
+  "keywords": [
+    "deno",
+    "benchmark"
+  ],
+  "license": "None",
+  "author": "YTKme",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "array-sum": "deno bench array-sum.ts"
+  },
+  "dependencies": {
+    "deno": "^2.4.3"
+  }
+}
